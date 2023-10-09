@@ -1,6 +1,6 @@
 {
-    "name": "open-e-cont-md/yii2-internal-api",
-    "description": "Yii-2 Extention for Open.e-Cont.md Internal API",
+    "name": "open-e-cont-md/yii2-bank-api",
+    "description": "Yii-2 Extention for Open.e-Cont.md Bank API",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","api"],
     "license": "MIT",
@@ -8,7 +8,7 @@
         {
             "name": "Diginet Pro",
             "email": "open.econt.md@gmail.com",
-            "homepage": "https://github.com/open-e-cont-md/yii2-internal-api",
+            "homepage": "https://github.com/open-e-cont-md/yii2-bank-api",
             "role": "Developer Team"
         }
     ],
@@ -18,11 +18,11 @@
         "josemmo/einvoicing": "^0.2.6"
     },
     "extra": {
-        "bootstrap": "openecontmd\\internal_api\\Bootstrap"
+        "bootstrap": "openecontmd\\bank_api\\Bootstrap"
     },
     "autoload": {
         "psr-4": {
-            "openecontmd\\internal_api\\": ""
+            "openecontmd\\bank_api\\": ""
         }
     }
 }
